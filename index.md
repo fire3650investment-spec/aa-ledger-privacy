@@ -1,6 +1,6 @@
 # AA 記帳 隱私權政策
 
-**最後更新日期：2026 年 7 月 5 日**
+**最後更新日期：2026 年 7 月 18 日**
 
 感謝您使用 AA 記帳（以下簡稱「本應用程式」）。本隱私權政策說明我們如何收集、使用及保護您的個人資料。
 
@@ -26,6 +26,8 @@
 
 - **裝置資訊**：作業系統版本（用於除錯）
 - **使用記錄**：App 內功能使用情形（透過 Firebase Analytics，匿名化處理）
+- **訂閱與購買紀錄**：您購買的訂閱方案與購買／續訂狀態（透過 RevenueCat 進行訂閱管理與購買驗證）
+- **當機與錯誤診斷**：App 發生當機或錯誤時的診斷紀錄（透過 Sentry，用於偵測並修復問題）
 
 ### 2.3 我們不收集的資料
 
@@ -44,6 +46,8 @@
 2. **AI 功能**：收據照片傳送至 Google Gemini API 進行文字辨識，辨識完成後不留存原始照片
 3. **匯率換算**：查詢即時匯率以支援多幣別功能
 4. **帳號驗證**：透過 Firebase Authentication 驗證您的身份
+5. **訂閱管理**：透過 RevenueCat 驗證您的訂閱與購買狀態，並解鎖對應的付費功能
+6. **問題診斷**：透過 Sentry 收集當機與錯誤紀錄，以偵測並改善 App 的穩定性
 
 ---
 
@@ -65,6 +69,8 @@
 | Google Firebase | 帳號驗證、資料庫、分析 | [firebase.google.com/support/privacy](https://firebase.google.com/support/privacy) |
 | Google Gemini API | 收據 AI 辨識 | [ai.google.dev/terms](https://ai.google.dev/terms) |
 | ExchangeRate-API | 即時匯率查詢 | [exchangerate-api.com/privacy](https://www.exchangerate-api.com/privacy) |
+| RevenueCat | 訂閱管理與購買驗證 | [revenuecat.com/privacy](https://www.revenuecat.com/privacy) |
+| Sentry | 當機與錯誤診斷回報 | [sentry.io/privacy](https://sentry.io/privacy/) |
 
 ---
 
